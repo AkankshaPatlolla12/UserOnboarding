@@ -1,0 +1,77 @@
+.emp-on-boarding-form {
+    background: #ffffff;
+    border: 0 none;
+    width: 80%;
+    margin: 50px auto;
+    position: relative;
+  }
+  
+  .form-container {
+    width: 450px;
+    margin: 0 auto;
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  
+  @media (max-width: 576px) {
+    .form-container {
+      width: 100%;
+    }
+   }
+   @media (min-width: 768px) and (max-width: 991.98px) {
+    .form-container {
+      width: 100%;
+    }
+    }
+  .form-container form {
+    margin: 0 30px;
+  }
+  .form-container .form-next {
+    margin: 0 30px;
+  }
+  
+  .form-container .onbaord-icon{
+      width: 30px;
+      height: 30px;
+      background-color: white;
+      border-radius: 50%;
+  }
+  .form-container .row .card.active .onbaord-icon{
+    background-color: var(--brand-color);
+  }
+  
+  .form-container .row {
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .form-container .row .card {
+    cursor: pointer;
+  }
+  
+  .form-container .row .card.active {
+    border: 1px solid var(--brand-color);
+  }
+  
+  .form-container .row .card .card-text {
+    color: #a3abba;
+  }
+  
+  .compete-icon{
+    margin: 0 auto;
+    display: block;
+    background-color: var(--brand-color);
+    width: 60px;
+    border-radius: 50%;
+    margin-bottom: 2rem;
+  }
+  
+  .logo {
+    margin: 0 auto;
+    display: block;
+    width: 120px;
+    border-radius: 50%;
+    padding-top: 3rem;
+    padding-bottom: 1rem;
+  }
+  

@@ -1,0 +1,39 @@
+@font-face {
+  font-family: myFirstFont;
+  src: url(fonts/inter/Inter-VariableFont_slnt\,wght.ttf);
+}
+:root {
+  --brand-color: #664de5;
+}
+* {
+  font-family: "Google Sans", -apple-system, BlinkMacSystemFont, sans-serif, "Inter variant0", Tofu;
+ }
+body {
+  background-color: #e9edf4;
+}
+
+/*
+Bootstrap override starts
+*/
+.form-control::placeholder, .input-group-text, label .sub-label { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  opacity: 0.5; /* Firefox */
+}
+label {
+  display: inline-block;
+  margin-bottom: 0.5rem;
+}
+.btn-primary {
+  --bs-btn-bg: var(--brand-color); 
+  --bs-btn-border-color: var(--brand-color); 
+}
+
+/*
+Bootstrap override ends
+*/
+
+
+.App {
+  position: relative;
+  
+  height: 100vh;
+}
